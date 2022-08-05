@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hamad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFEB3B"
+    android:backgroundTint="#CCC79E"
+    app:layoutDescription="@xml/activity_main_scene"
+    tools:context=".MainActivity"><![CDATA[
+
+    @+id/textView3"
+        android:layout_width="225dp"
+        android:layout_height="116dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="89dp"
+        android:layout_marginBottom="46dp"
+        android:text="   Total"
+        android:textColor="#84A3A6"
+        android:textSize="60sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    ]]>
+
+    <TextView
+        android:id="@+id/remas"
+        android:layout_width="364dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="571dp"
+        android:fontFamily="sans-serif-black"
+        android:text="     calculator"
+        android:textColor="#756561"
+        android:textSize="60sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="82dp"
+        android:layout_marginBottom="489dp"
+        android:ems="10"
+        android:hint="First number"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="77dp"
+        android:layout_marginBottom="385dp"
+        android:ems="10"
+        android:hint="Second number"
+        android:inputType="textPersonName"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="177dp"
+        android:layout_height="74dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="87dp"
+        android:layout_marginBottom="94dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Total"
+        android:textColor="#806A6A"
+        android:textColorHint="#8FB8BD"
+        android:textSize="48sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="194dp"
+        android:layout_height="80dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="218dp"
+        android:backgroundTint="#7E989C"
+        android:fontFamily="serif"
+        android:hint="Calculator"
+        android:shadowColor="#9ABDC1"
+        android:text="Calaulator"
+        android:textColor="#D8D2D2"
+        android:textColorHint="#FFF7F7"
+        android:textSize="20sp" />
+
+</RelativeLayout>
